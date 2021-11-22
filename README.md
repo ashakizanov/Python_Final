@@ -21,18 +21,16 @@ from bs4 import BeautifulSoup
 from sqlalchemy import desc
 ```
 
-- Create tables in your database:
+## Create tables in your database
+```
 Create table Coin
-
-- Run application:
+```
 
 ```shell
 $ python3 src/app.py
 ```
-
-## Usage
-Run the code
-
-
-## License
-`MIT`
+```
+# Done by
+Amirkhan Shakizan
+Altair Tussupov
+Ayan Aitkulov
