@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+    {% block head %}
+        <title>FlaskBS</title>
+    {% endblock %}
+    {% block body %}
+        <div>
+            <form action="/coin" method="POST">
+                <input type="text" name="name" id="name" placeholder="{{nname}}">
+                <input type="submit" value="Check">
+            </form>
+            <table>
+                {% for soupp in range(len(soupfindall)) %}
+                    <tr>
+                        <td>
+                            {{soupfindall[soupp]}}
+                        </td>
+                        <td>
+                            {{summarizer[soupp]}}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% endblock %}
