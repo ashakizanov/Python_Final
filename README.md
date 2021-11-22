@@ -5,13 +5,13 @@
 Final Project
 ## Installation
 
-To get started with the application you need to complete following steps:
-PyPl
+To get started with the application you need to intsall following PyPl:
 ``` bash 
 pip install flask
 pip install flask-sqlalchemy
 pip install bs4
 pip install requests
+pip install transformers
 ```
 
 ## Usage
@@ -51,6 +51,7 @@ flask (https://flask.palletsprojects.com/en/2.0.x/)
 flask_sqlalchemy (https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
 requests  (https://pypi.org/project/requests/)
 beautifulSoup (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+transformers (https://huggingface.co/transformers/installation.html)
 ```
 
 # Done by
