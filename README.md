@@ -1,5 +1,3 @@
-# python_last_dance
-
 ## TITLE
 
 Final Project
@@ -55,6 +53,4 @@ transformers (https://huggingface.co/transformers/installation.html)
 ```
 
 # Done by
-Amirkhan Shakizan
-Altair Tussupov
-Ayan Aitkulov
+Amirkhan Shakizan, Altair Tussupov, Ayan Aitkulov
